@@ -196,11 +196,6 @@ const setup = async () => {
         pairsRemaining--;
         clicks++;
         updateHeader();
-        if (pairsRemaining === 0) {
-          setTimeout(() => {
-            window.alert("You win!");
-          }, 500);
-        }
       } else {
         console.log("no match");
         setTimeout(() => {
