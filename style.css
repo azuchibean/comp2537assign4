@@ -42,6 +42,6 @@ img {
   transform: rotateY(180deg);
 }
 
-.buttons, #theme, #header {
+.buttons, .theme, #header {
     text-align: center;
 }
